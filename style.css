@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+footer {
+	background-color:#DEB887;
+}
+#t01 {
+  width: 50%;    
+  background-color: #DEB887;
+}
+
+button {
+  background-color: #DEB887;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+video {
+  max-width: 100%;
+  height: auto;
+  position:relative;
+  
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 100px) and (max-device-width: 1024px)  {
+
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
